@@ -14,7 +14,7 @@ const App = () => {
 
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="Task_manager" element={<TaskManagerPage />} />
+          <Route path="Task_Manager" element={<TaskManagerPage />} />
           <Route path="API" element={<API />} />
 
         </Route>
